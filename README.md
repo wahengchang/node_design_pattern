@@ -4,27 +4,32 @@ Description: This is a project to understand design pattern in Nodejs, such like
 
 ## Installation
 
+```
 npm install
+
+```
 
 ## Usage
 
-update signleton 1
-/singleton/1/:id
+** Singleton Example
+* signleton object 1
+* */singleton/1/:id*
 
-update signleton 1
-/singleton/2/:id
+* signleton object 2
+* */singleton/2/:id*
 
-update object 1
-/object/1
-update object 2
-/object/2
+** Object Example
+* object 1
+* */object/1*
+* object 2
+* */object/2*
 
-few example about creating modules, functions and objects
-/df/df
-/df/anony
-/df/named
-/df/obj/1
-/df/obj/2
+** few example about creating modules, functions and objects
+* */df/df*
+* */df/anony*
+* */df/named*
+* */df/obj/1*
+* */df/obj/2*
 
 ## Contributing
 
@@ -39,4 +44,4 @@ few example about creating modules, functions and objects
 TODO: Write history
 
 ## Credits
-Some of the examples is from: https://github.com/jimhigson/NodeJS-Handbook
+Some of the examples is from: [https://github.com/jimhigson/NodeJS-Handbook](https://github.com/jimhigson/NodeJS-Handbook)
