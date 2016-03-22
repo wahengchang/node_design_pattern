@@ -1,6 +1,6 @@
 # node_design_pattern
 
-Description: This is a project to understand design pattern in Nodejs, such like signleton, object, module, export ...
+This is a project to understand design pattern in Nodejs, such like signleton, object, module, export ...
 
 ## Installation
 
@@ -11,20 +11,20 @@ npm install
 
 ## Usage
 
-** Singleton Example
+### Singleton Example
 * signleton object 1
 * */singleton/1/:id*
 
 * signleton object 2
 * */singleton/2/:id*
 
-** Object Example
+### Object Example
 * object 1
 * */object/1*
 * object 2
 * */object/2*
 
-** few example about creating modules, functions and objects
+### few example about creating modules, functions and objects
 * */df/df*
 * */df/anony*
 * */df/named*
@@ -44,4 +44,4 @@ npm install
 TODO: Write history
 
 ## Credits
-Some of the examples is from: [https://github.com/jimhigson/NodeJS-Handbook](https://github.com/jimhigson/NodeJS-Handbook)
+Some of the examples from: [https://github.com/jimhigson/NodeJS-Handbook](https://github.com/jimhigson/NodeJS-Handbook)
