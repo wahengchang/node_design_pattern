@@ -24,6 +24,10 @@ npm install
 * object 2
 * */object/2*
 
+### Private/Public variables and functions Example
+* */pp/1*
+* */pp/2*
+
 ### few example about creating modules, functions and objects
 * */df/df*
 * */df/anony*
@@ -44,4 +48,4 @@ npm install
 TODO: Write history
 
 ## Credits
-Some of the examples from: [https://github.com/jimhigson/NodeJS-Handbook](https://github.com/jimhigson/NodeJS-Handbook)
+Some of the examples from: [https://github.com/jimhigson/NodeJS-Handbook](https://github.com/jimhigson/NodeJS-Handbook), [http://javascript.crockford.com/private.html](http://javascript.crockford.com/private.html)

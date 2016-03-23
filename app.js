@@ -8,6 +8,8 @@ var bodyParser = require('body-parser');
 var singleton = require('./routes/singleton');
 var define_function = require('./routes/define_function');
 var object = require('./routes/object');
+var pp = require('./routes/private_public');
+
 
 var app = express();
 
@@ -26,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/singleton', singleton);
 app.use('/df', define_function);
 app.use('/object', object);
+app.use('/pp', pp);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

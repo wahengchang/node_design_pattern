@@ -16,4 +16,5 @@ router.get('/2', function(req, res, next) {
   res.render('index', { title: buz2.log()});
 });
 
+
 module.exports = router;
