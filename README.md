@@ -12,17 +12,25 @@ npm install
 ## Usage
 
 ### Singleton Example
-* signleton object 1
+signleton object 1
 * */singleton/1/:id*
 
-* signleton object 2
+signleton object 2
 * */singleton/2/:id*
 
 ### Object Example
-* object 1
+object 1
 * */object/1*
-* object 2
+
+object 2
 * */object/2*
+
+### Module Pattern(extension) Example
+module
+* */mp/1*
+
+extended module
+* */mp/2*
 
 ### Private/Public variables and functions Example
 * */pp/1*
