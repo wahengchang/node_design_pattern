@@ -43,6 +43,13 @@ extended module
 * */df/obj/1*
 * */df/obj/2*
 
+
+### Facade Example
+* */facade*
+
+### Decorator Example
+* */decorator*
+
 ## Contributing
 
 1. Fork it!
