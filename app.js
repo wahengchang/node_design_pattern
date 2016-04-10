@@ -10,6 +10,8 @@ var define_function = require('./routes/define_function');
 var object = require('./routes/object');
 var pp = require('./routes/private_public');
 var mp = require('./routes/module_pattern');
+var facade = require('./routes/facade');
+var decorator = require('./routes/decorator');
 
 
 var app = express();
@@ -31,6 +33,8 @@ app.use('/df', define_function);
 app.use('/object', object);
 app.use('/pp', pp);
 app.use('/mp', mp);
+app.use('/facade', facade);
+app.use('/decorator', decorator);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
