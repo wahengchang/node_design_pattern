@@ -12,6 +12,7 @@ var pp = require('./routes/private_public');
 var mp = require('./routes/module_pattern');
 var facade = require('./routes/facade');
 var decorator = require('./routes/decorator');
+var middleware = require('./routes/middleware');
 
 
 var app = express();
@@ -35,6 +36,7 @@ app.use('/pp', pp);
 app.use('/mp', mp);
 app.use('/facade', facade);
 app.use('/decorator', decorator);
+app.use('/middleware', middleware);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

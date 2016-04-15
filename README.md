@@ -1,6 +1,6 @@
 # node_design_pattern
 
-This is a project to understand design pattern in Nodejs, such like signleton, object, module, export ...
+This is a project to understand design pattern in Nodejs, such like signleton, object, module, middleware pattern, export ...
 
 ## Installation
 
@@ -10,6 +10,12 @@ npm install
 ```
 
 ## Usage
+
+### Facade Example
+* */facade*
+
+### Decorator Example
+* */decorator*
 
 ### Singleton Example
 signleton object 1
@@ -43,12 +49,9 @@ extended module
 * */df/obj/1*
 * */df/obj/2*
 
+### example of middleware function, router.use()
+* */middle/:id*
 
-### Facade Example
-* */facade*
-
-### Decorator Example
-* */decorator*
 
 ## Contributing
 
